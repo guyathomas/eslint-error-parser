@@ -1,0 +1,399 @@
+/Users/guythomas/src/lyft-node-service/packages/service/__mocks__/next.tsx
+  1:15  error    'opts' is defined but never used          @typescript-eslint/no-unused-vars
+  1:22  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/App.ts
+  6:42  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/Document.ts
+  1:20  error    'Head' is defined but never used          @typescript-eslint/no-unused-vars
+  1:26  error    'Main' is defined but never used          @typescript-eslint/no-unused-vars
+  1:32  error    'NextScript' is defined but never used    @typescript-eslint/no-unused-vars
+  4:48  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/NextConfig.ts
+  19:19  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  20:18  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  27:40  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  52:70  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/Server.ts
+  11:11  error  'app' is already declared in the upper scope  no-shadow
+  20:9   error  Unexpected console statement                  no-console
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/ServicePluginHost.ts
+  13:49  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  28:13  error    Unexpected dangling '_' in '_instance'    no-underscore-dangle
+  32:9   error    Unexpected dangling '_' in '_instance'    no-underscore-dangle
+  46:16  error    Unexpected dangling '_' in '_instance'    no-underscore-dangle
+  54:9   error    Unexpected dangling '_' in '_instance'    no-underscore-dangle
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/cli.ts
+  15:21  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/plugins/ClientPlugins.tsx
+   1:1   error    File has too many classes (2). Maximum allowed is 1  max-classes-per-file
+  12:55  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  15:56  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/plugins/Css.ts
+  5:36  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/plugins/Dotenv.ts
+  13:45  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  16:55  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/plugins/ResolvePath.ts
+  7:39  error    'opts' is defined but never used          @typescript-eslint/no-unused-vars
+  7:46  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  8:55  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/plugins/Sass.ts
+   5:36  error    Require statement not part of import statement  @typescript-eslint/no-var-requires
+   8:19  warning  Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any
+   9:18  warning  Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any
+  13:19  warning  Unexpected any. Specify a different type        @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/plugins/helpers/index.ts
+  6:16  error  Calls to require() should use string literals  import/no-dynamic-require
+  6:16  error  Unexpected require()                           global-require
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/test/App.spec.tsx
+  11:15  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  17:18  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/test/NextConfig.spec.ts
+  13:27  error    'config' is already declared in the upper scope      no-shadow
+  13:35  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  27:25  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  28:28  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  59:19  error    'nextConfig' is already declared in the upper scope  no-shadow
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/test/ServicePluginHost.spec.tsx
+  24:17  error    Do not use 'new' for side effects         no-new
+  31:59  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/test/fixtures/service-plugin-middleware.tsx
+  5:39  error    'options' is defined but never used       @typescript-eslint/no-unused-vars
+  5:49  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  7:37  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  7:47  warning  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/test/fixtures/service-plugin-mobx.tsx
+   1:1   error    File has too many classes (2). Maximum allowed is 1  max-classes-per-file
+   5:39  error    'options' is defined but never used                  @typescript-eslint/no-unused-vars
+   5:49  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+   6:80  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  11:66  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  11:71  error    'opts' is defined but never used                     @typescript-eslint/no-unused-vars
+  11:77  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  12:20  error    Component should be written as a pure function       react/prefer-stateless-function
+
+/Users/guythomas/src/lyft-node-service/packages/service/src/test/fixtures/service-plugin-tracker.tsx
+  1:1   error    File has too many classes (2). Maximum allowed is 1  max-classes-per-file
+  5:39  error    'options' is defined but never used                  @typescript-eslint/no-unused-vars
+  5:49  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  6:69  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  6:74  error    'opts' is defined but never used                     @typescript-eslint/no-unused-vars
+  6:80  warning  Unexpected any. Specify a different type             @typescript-eslint/no-explicit-any
+  7:20  error    Component should be written as a pure function       react/prefer-stateless-function
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/react-router-to-next/react-router-to-next.input.js
+  8:9  error  JSX not allowed in files with extension '.js'  react/jsx-filename-extension
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/react-router-to-next/react-router-to-next.output.js
+  8:9  error  JSX not allowed in files with extension '.js'  react/jsx-filename-extension
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/arrow-functions.input.js
+   1:15  error  Require statement not part of import statement                                                                                                                                                                                                                                                               @typescript-eslint/no-var-requires
+   3:7   error  'Component' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   4:5   error  componentWillMount is deprecated since React 16.9.0, use UNSAFE_componentWillMount instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillmount. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                       react/no-deprecated
+   4:26  error  'logger' is not defined                                                                                                                                                                                                                                                                                      no-undef
+   6:25  error  'logger' is not defined                                                                                                                                                                                                                                                                                      no-undef
+   8:5   error  componentWillReceiveProps is deprecated since React 16.9.0, use UNSAFE_componentWillReceiveProps instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillreceiveprops. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components  react/no-deprecated
+   8:33  error  'logger' is not defined                                                                                                                                                                                                                                                                                      no-undef
+  10:29  error  'logger' is not defined                                                                                                                                                                                                                                                                                      no-undef
+  12:5   error  componentWillUpdate is deprecated since React 16.9.0, use UNSAFE_componentWillUpdate instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillupdate. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                    react/no-deprecated
+  12:27  error  'logger' is not defined                                                                                                                                                                                                                                                                                      no-undef
+  14:26  error  'logger' is not defined                                                                                                                                                                                                                                                                                      no-undef
+  16:28  error  'logger' is not defined                                                                                                                                                                                                                                                                                      no-undef
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/arrow-functions.output.js
+   1:15  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+   3:7   error  'Component' is defined but never used           @typescript-eslint/no-unused-vars
+   4:33  error  'logger' is not defined                         no-undef
+   6:25  error  'logger' is not defined                         no-undef
+   8:40  error  'logger' is not defined                         no-undef
+  10:29  error  'logger' is not defined                         no-undef
+  12:34  error  'logger' is not defined                         no-undef
+  14:26  error  'logger' is not defined                         no-undef
+  16:28  error  'logger' is not defined                         no-undef
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/create-react-class.input.js
+   1:26  error    Require statement not part of import statement                                                                                                                                                                                                                                                               @typescript-eslint/no-var-requires
+   3:7   error    'MyComponent' is assigned a value but never used                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+   3:38  error    Component should use es6 class instead of createClass                                                                                                                                                                                                                                                        react/prefer-es6-class
+  13:33  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  13:44  error    'nextState' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  16:32  error    'prevProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  16:43  error    'prevState' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  19:39  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  27:5   error    componentWillMount is deprecated since React 16.9.0, use UNSAFE_componentWillMount instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillmount. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                       react/no-deprecated
+  33:5   error    componentWillUpdate is deprecated since React 16.9.0, use UNSAFE_componentWillUpdate instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillupdate. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                    react/no-deprecated
+  33:25  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  33:36  error    'nextState' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  36:24  error    'prevProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  36:35  error    'prevState' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  39:5   error    componentWillReceiveProps is deprecated since React 16.9.0, use UNSAFE_componentWillReceiveProps instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillreceiveprops. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components  react/no-deprecated
+  39:5   warning  componentWillReceiveProps should be placed before componentWillUpdate                                                                                                                                                                                                                                        react/sort-comp
+  39:31  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  45:5   error    Your render method should have return statement                                                                                                                                                                                                                                                              react/require-render-return
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/create-react-class.output.js
+   1:26  error    Require statement not part of import statement                                       @typescript-eslint/no-var-requires
+   3:7   error    'MyComponent' is assigned a value but never used                                     @typescript-eslint/no-unused-vars
+   3:38  error    Component should use es6 class instead of createClass                                react/prefer-es6-class
+  13:40  error    'nextProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  13:51  error    'nextState' is defined but never used                                                @typescript-eslint/no-unused-vars
+  16:32  error    'prevProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  16:43  error    'prevState' is defined but never used                                                @typescript-eslint/no-unused-vars
+  19:46  error    'nextProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  33:32  error    'nextProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  33:43  error    'nextState' is defined but never used                                                @typescript-eslint/no-unused-vars
+  36:24  error    'prevProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  36:35  error    'prevState' is defined but never used                                                @typescript-eslint/no-unused-vars
+  39:5   warning  UNSAFE_componentWillReceiveProps should be placed before UNSAFE_componentWillUpdate  react/sort-comp
+  39:38  error    'nextProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  45:5   error    Your render method should have return statement                                      react/require-render-return
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/instance-methods.input.js
+   1:15  error    Require statement not part of import statement                                                                                                                                                                                                                                                               @typescript-eslint/no-var-requires
+   3:7   error    'ClassComponent' is defined but never used                                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+   4:5   error    componentWillMount is deprecated since React 16.9.0, use UNSAFE_componentWillMount instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillmount. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                       react/no-deprecated
+  12:5   error    componentWillUpdate is deprecated since React 16.9.0, use UNSAFE_componentWillUpdate instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillupdate. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                    react/no-deprecated
+  12:25  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  12:36  error    'nextState' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  16:24  error    'prevProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  16:35  error    'prevState' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  20:5   error    componentWillReceiveProps is deprecated since React 16.9.0, use UNSAFE_componentWillReceiveProps instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillreceiveprops. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components  react/no-deprecated
+  20:5   warning  componentWillReceiveProps should be placed before componentWillUpdate                                                                                                                                                                                                                                        react/sort-comp
+  20:31  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  28:5   error    Your render method should have return statement                                                                                                                                                                                                                                                              react/require-render-return
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/instance-methods.output.js
+   1:15  error    Require statement not part of import statement                                       @typescript-eslint/no-var-requires
+   3:7   error    'ClassComponent' is defined but never used                                           @typescript-eslint/no-unused-vars
+  12:32  error    'nextProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  12:43  error    'nextState' is defined but never used                                                @typescript-eslint/no-unused-vars
+  16:24  error    'prevProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  16:35  error    'prevState' is defined but never used                                                @typescript-eslint/no-unused-vars
+  20:5   warning  UNSAFE_componentWillReceiveProps should be placed before UNSAFE_componentWillUpdate  react/sort-comp
+  20:38  error    'nextProps' is defined but never used                                                @typescript-eslint/no-unused-vars
+  28:5   error    Your render method should have return statement                                      react/require-render-return
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/manually-calling-lifecycles.input.js
+  1:22  error  'Component' is not defined  no-undef
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/manually-calling-lifecycles.output.js
+  1:22  error  'Component' is not defined  no-undef
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/manually-invoked-mixin-methods.input.js
+  1:15  error    Require statement not part of import statement                                                                                                                                                                                                                                          @typescript-eslint/no-var-requires
+  2:28  error    Require statement not part of import statement                                                                                                                                                                                                                                          @typescript-eslint/no-var-requires
+  4:7   error    'PMTAuthenticationFailureDialog' is defined but never used                                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+  4:62  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                @typescript-eslint/no-explicit-any
+  4:67  warning  Unexpected any. Specify a different type                                                                                                                                                                                                                                                @typescript-eslint/no-explicit-any
+  5:5   warning  componentDidMount should be placed after componentWillMount                                                                                                                                                                                                                             react/sort-comp
+  9:5   error    componentWillMount is deprecated since React 16.9.0, use UNSAFE_componentWillMount instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillmount. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components  react/no-deprecated
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/manually-invoked-mixin-methods.output.js
+  1:15  error    Require statement not part of import statement                      @typescript-eslint/no-var-requires
+  2:28  error    Require statement not part of import statement                      @typescript-eslint/no-var-requires
+  4:7   error    'PMTAuthenticationFailureDialog' is defined but never used          @typescript-eslint/no-unused-vars
+  4:62  warning  Unexpected any. Specify a different type                            @typescript-eslint/no-explicit-any
+  4:67  warning  Unexpected any. Specify a different type                            @typescript-eslint/no-explicit-any
+  5:5   warning  componentDidMount should be placed after UNSAFE_componentWillMount  react/sort-comp
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/one-lifecycle-calls-another.input.js
+  1:15  error  Require statement not part of import statement                                                                                                                                                                                                                                                               @typescript-eslint/no-var-requires
+  3:7   error  'Component' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  4:5   error  componentWillMount is deprecated since React 16.9.0, use UNSAFE_componentWillMount instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillmount. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                       react/no-deprecated
+  8:5   error  componentWillReceiveProps is deprecated since React 16.9.0, use UNSAFE_componentWillReceiveProps instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillreceiveprops. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components  react/no-deprecated
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/one-lifecycle-calls-another.output.js
+  1:15  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+  3:7   error  'Component' is defined but never used           @typescript-eslint/no-unused-vars
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/standalone-function.input.js
+  1:10  error  'componentWillMount' is defined but never used         @typescript-eslint/no-unused-vars
+  4:10  error  'componentWillUpdate' is defined but never used        @typescript-eslint/no-unused-vars
+  4:30  error  'nextProps' is defined but never used                  @typescript-eslint/no-unused-vars
+  4:41  error  'nextState' is defined but never used                  @typescript-eslint/no-unused-vars
+  7:10  error  'componentWillReceiveProps' is defined but never used  @typescript-eslint/no-unused-vars
+  7:36  error  'nextProps' is defined but never used                  @typescript-eslint/no-unused-vars
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/typescript/class.tsx.input.js
+   3:7   error  'Component' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+   4:10  error  componentWillMount is deprecated since React 16.9.0, use UNSAFE_componentWillMount instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillmount. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                       react/no-deprecated
+   4:11  error  Parsing error: Unexpected token                                                                                                                                                                                                                                                                              prettier/prettier
+   8:10  error  componentWillReceiveProps is deprecated since React 16.9.0, use UNSAFE_componentWillReceiveProps instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillreceiveprops. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components  react/no-deprecated
+  12:10  error  componentWillUpdate is deprecated since React 16.9.0, use UNSAFE_componentWillUpdate instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillupdate. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                    react/no-deprecated
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/typescript/class.tsx.output.js
+  3:7   error  'Component' is defined but never used  @typescript-eslint/no-unused-vars
+  4:11  error  Parsing error: Unexpected token        prettier/prettier
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/rename-unsafe-lifecycles/variable-within-class-method.input.js
+  1:7   error  'SomeClass' is defined but never used                           @typescript-eslint/no-unused-vars
+  3:15  error  'componentWillMount' is assigned a value but never used         @typescript-eslint/no-unused-vars
+  4:15  error  'componentWillUpdate' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  5:15  error  'componentWillReceiveProps' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/sort-comp/sort-comp-pure.input.js
+  11:16  error    JSX not allowed in files with extension '.js'              react/jsx-filename-extension
+  17:5   warning  someStaticThing should be placed before componentDidMount  react/sort-comp
+  21:5   warning  renderFoo should be placed after myOwnMethod               react/sort-comp
+  33:17  error    'foo' is defined but never used                            @typescript-eslint/no-unused-vars
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/sort-comp/sort-comp-pure.output.js
+  18:17  error  'foo' is defined but never used                @typescript-eslint/no-unused-vars
+  34:16  error  JSX not allowed in files with extension '.js'  react/jsx-filename-extension
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/sort-comp/sort-comp.input.js
+   1:15  error  Require statement not part of import statement                                                     @typescript-eslint/no-var-requires
+   4:21  error  React.createClass is deprecated since React 15.5.0, use the npm module create-react-class instead  react/no-deprecated
+   9:16  error  JSX not allowed in files with extension '.js'                                                      react/jsx-filename-extension
+  12:14  error  'PureRenderMixin' is not defined                                                                   no-undef
+  25:17  error  'foo' is defined but never used                                                                    @typescript-eslint/no-unused-vars
+  30:14  error  'bar' is not defined                                                                               no-undef
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/sort-comp/sort-comp.output.js
+   1:15  error  Require statement not part of import statement                                                     @typescript-eslint/no-var-requires
+   4:21  error  React.createClass is deprecated since React 15.5.0, use the npm module create-react-class instead  react/no-deprecated
+   6:14  error  'bar' is not defined                                                                               no-undef
+   9:14  error  'PureRenderMixin' is not defined                                                                   no-undef
+  14:17  error  'foo' is defined but never used                                                                    @typescript-eslint/no-unused-vars
+  30:16  error  JSX not allowed in files with extension '.js'                                                      react/jsx-filename-extension
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/sort-comp/sort-comp2.input.js
+   1:15  error    Require statement not part of import statement             @typescript-eslint/no-var-requires
+  11:16  error    JSX not allowed in files with extension '.js'              react/jsx-filename-extension
+  17:5   warning  someStaticThing should be placed before componentDidMount  react/sort-comp
+  21:5   warning  renderFoo should be placed after myOwnMethod               react/sort-comp
+  33:17  error    'foo' is defined but never used                            @typescript-eslint/no-unused-vars
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/sort-comp/sort-comp2.output.js
+   1:15  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+  18:17  error  'foo' is defined but never used                 @typescript-eslint/no-unused-vars
+  34:16  error  JSX not allowed in files with extension '.js'   react/jsx-filename-extension
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/sort-comp/sort-comp3.input.js
+  11:16  error    JSX not allowed in files with extension '.js'              react/jsx-filename-extension
+  17:5   warning  someStaticThing should be placed before componentDidMount  react/sort-comp
+  21:5   warning  renderFoo should be placed after myOwnMethod               react/sort-comp
+  33:17  error    'foo' is defined but never used                            @typescript-eslint/no-unused-vars
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__testfixtures__/sort-comp/sort-comp3.output.js
+  18:17  error  'foo' is defined but never used                @typescript-eslint/no-unused-vars
+  34:16  error  JSX not allowed in files with extension '.js'  react/jsx-filename-extension
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__tests__/react-router-to-next.spec.js
+  2:24  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__tests__/rename-unsafe-lifecycles.spec.js
+  22:24  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/__tests__/sort-comp.spec.js
+  11:24  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/react-router-to-next.js
+  1:12  error  Require statement not part of import statement  @typescript-eslint/no-var-requires
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/sort-comp.js
+   31:18  warning  Unexpected unnamed function                       func-names
+   34:24  error    Unexpected require()                              global-require
+   34:24  error    Require statement not part of import statement    @typescript-eslint/no-var-requires
+   38:26  error    'getMethodsOrder' was used before it was defined  @typescript-eslint/no-use-before-define
+   46:24  error    'getCorrectIndex' was used before it was defined  @typescript-eslint/no-use-before-define
+   47:24  error    'getCorrectIndex' was used before it was defined  @typescript-eslint/no-use-before-define
+  171:46  error    Unary operator '++' used                          no-plusplus
+  172:15  error    Expected '!==' and instead saw '!='               eqeqeq
+  184:27  error    Unexpected require()                              global-require
+  184:27  error    Require statement not part of import statement    @typescript-eslint/no-var-requires
+  199:43  error    Unary operator '++' used                          no-plusplus
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/test/instance-methods.input.js
+   1:15  error    Require statement not part of import statement                                                                                                                                                                                                                                                               @typescript-eslint/no-var-requires
+   3:7   error    'ClassComponent' is defined but never used                                                                                                                                                                                                                                                                   @typescript-eslint/no-unused-vars
+   4:5   error    componentWillMount is deprecated since React 16.9.0, use UNSAFE_componentWillMount instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillmount. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                       react/no-deprecated
+  12:5   error    componentWillUpdate is deprecated since React 16.9.0, use UNSAFE_componentWillUpdate instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillupdate. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components                    react/no-deprecated
+  12:25  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  12:36  error    'nextState' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  16:24  error    'prevProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  16:35  error    'prevState' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  20:5   error    componentWillReceiveProps is deprecated since React 16.9.0, use UNSAFE_componentWillReceiveProps instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillreceiveprops. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components  react/no-deprecated
+  20:5   warning  componentWillReceiveProps should be placed before componentWillUpdate                                                                                                                                                                                                                                        react/sort-comp
+  20:31  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  28:5   error    Your render method should have return statement                                                                                                                                                                                                                                                              react/require-render-return
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/test/react-router-to-next.input.js
+  8:9  error  JSX not allowed in files with extension '.js'  react/jsx-filename-extension
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/test/sort-comp.input.js
+   1:15  error  Require statement not part of import statement                                                     @typescript-eslint/no-var-requires
+   4:21  error  React.createClass is deprecated since React 15.5.0, use the npm module create-react-class instead  react/no-deprecated
+   9:16  error  JSX not allowed in files with extension '.js'                                                      react/jsx-filename-extension
+  12:14  error  'PureRenderMixin' is not defined                                                                   no-undef
+  25:17  error  'foo' is defined but never used                                                                    @typescript-eslint/no-unused-vars
+  30:14  error  'bar' is not defined                                                                               no-undef
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/utils/ReactUtils.js
+   11:18  warning  Unexpected unnamed function                    func-names
+  105:21  error    'importDeclaration' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/utils/array-polyfills.js
+  24:33  error    Unary operator '++' used                                                           no-plusplus
+  32:6   error    Avoid referencing unbound methods which may cause unintentional scoping of `this`  @typescript-eslint/unbound-method
+  33:5   error    Avoid referencing unbound methods which may cause unintentional scoping of `this`  @typescript-eslint/unbound-method
+  36:6   error    Avoid referencing unbound methods which may cause unintentional scoping of `this`  @typescript-eslint/unbound-method
+  37:5   error    Avoid referencing unbound methods which may cause unintentional scoping of `this`  @typescript-eslint/unbound-method
+  37:28  warning  Unexpected unnamed function                                                        func-names
+
+✖ 251 problems (198 errors, 53 warnings)
+
+child_process.js:649
+    throw err;
+    ^
+
+Error: Command failed: eslint -c /Users/guythomas/src/lyft-node-service/node_modules/@lyft/frontend-build/service-config/lint/eslintrc.js --ignore-path /Users/guythomas/src/lyft-node-service/packages/service/.eslintignore --ext .js,.jsx,.ts,.tsx --parser-options '{compilerOptions:{allowJs:true,checkJs:true}}' . --fix
+    at checkExecSyncError (child_process.js:610:11)
+    at Object.execSync (child_process.js:646:15)
+    at execWithIO (/Users/guythomas/src/lyft-node-service/node_modules/@lyft/frontend-build/build/cli/index.js:18:21)
+    at Command.<anonymous> (/Users/guythomas/src/lyft-node-service/node_modules/@lyft/frontend-build/build/cli/index.js:112:5)
+    at Command.listener (/Users/guythomas/src/lyft-node-service/node_modules/@lyft/frontend-build/node_modules/commander/index.js:360:8)
+    at Command.emit (events.js:305:20)
+    at Command.parseArgs (/Users/guythomas/src/lyft-node-service/node_modules/@lyft/frontend-build/node_modules/commander/index.js:799:12)
+    at Command.parse (/Users/guythomas/src/lyft-node-service/node_modules/@lyft/frontend-build/node_modules/commander/index.js:563:21)
+    at Object.<anonymous> (/Users/guythomas/src/lyft-node-service/node_modules/@lyft/frontend-build/build/cli/index.js:218:21)
+    at Module._compile (internal/modules/cjs/loader.js:1139:30) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 3369,
+  stdout: null,
+  stderr: null
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+➜  service git:(upgrade-feb)   20:31  error    'nextProps' is defined but never used                                                                                                                                                                                                                                                                        @typescript-eslint/no-unused-vars
+  28:5   error    Your render method should have return statement                                                                                                                                                                                                                                                              react/require-render-return
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/test/react-router-to-next.input.js
+  8:9  error  JSX not allowed in files with extension '.js'  react/jsx-filename-extension
+
+/Users/guythomas/src/lyft-node-service/packages/service/transforms/test/sort-comp.input.js
+   1:15  error  Require statement not part of import statement                                                     @typescript-eslint/no-var-requires
+   4:21  error  React.createClass is deprecated since React 15.5.0, use the npm module create-react-class instead  react/no-deprecated
+   9:16  error  JSX not allowed in files with extension '.js'                                                      react/jsx-filename-extension
+  12:14  error  'PureRend
+➜  service git:(upgrade-feb)
